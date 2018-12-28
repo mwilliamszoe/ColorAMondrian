@@ -3,12 +3,14 @@ body {
 }
 
 p {
-  background: linear-gradient(to right, red, blue);
+  background: linear-gradient(to right, red, blue, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 60px;
+  font-size: 80px;
+  font-weight: bold;
   font-family: sans-serif;
-  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 12px;
 }
 
 #board {
@@ -16,37 +18,72 @@ p {
   align-items: center;
 }
 
-/* #canvas {
-    background-color: tan;
-    margin: 50px;
-    padding: 200px 600px 300px 200px;
-    display: flex;
-  } */
-
 #paint {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin: auto;
 }
 
 .colors {
   padding: 30px;
-  background-color: blue;
   color: white;
   margin: 25px 0 25px 0;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#white {
+  background-color: white;
 }
 
 table {
   background-color: white;
   border: 1px solid black;
   border-collapse: collapse;
+  margin: auto;
+  color: white;
 }
 
 td {
-  border: 2px solid black;
+  border: 5px solid black;
 }
 
-#paper {
-  border: 1px solid black;
-  background-color: white;
+#one {
+  padding-left: 8em;
+  padding-bottom: 3em;
+}
+#two {
+  padding-left: 4em;
+}
+#three {
+  padding-left: 15em;
+}
+#four {
+  padding-left: 7em;
+}
+
+#five {
+  padding-bottom: 10em;
+}
+
+#nine {
+  padding-bottom: 4em;
+}
+
+#thirteen {
+  padding-bottom: 6em;
+}
+
+#seventeen {
+  padding-bottom: 2em;
 }
